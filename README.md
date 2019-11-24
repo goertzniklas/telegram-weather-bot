@@ -16,7 +16,8 @@ A telegram bot which tells you the weather using a raspberry pi
 
 ```i2cdetect -y 1```
 
-Install the following python library
+Install the following python library:
+
 ```pip3 install Adafruit-GPIO```
 
 
