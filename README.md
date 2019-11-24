@@ -10,17 +10,13 @@ A telegram bot which tells you the weather using a raspberry pi
 
 ## Installation
 1. Download the repo.
-2. Please follow the [installation](https://github.com/python-telegram-bot/python-telegram-bot) guide of the telegram-api first.
+
+2. ```pip3 install python-telegram-bot --upgrade```
 3. Make sure that i2c and gpio is enabled on your device.
 4. Insert your Telegram TOKEN inside the bot.py. 
 5. Connect your sensors and check them with:
 
-```i2cdetect -y 1```
+6. ```i2cdetect -y 1```
 
-6. Install the following python library:
-
-```pip3 install Adafruit-GPIO```
-
-
-
-
+7. ```pip3 install Adafruit-GPIO```
+8. Run the bot.py
