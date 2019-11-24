@@ -1,10 +1,10 @@
 from SI1145 import SI1145
-import bme280
+import BME280
 si1145 = SI1145()
 
-print(bme280.readTemperature())
-print(bme280.readPressure())
-print(bme280.readHumidity())
+print(BME280.readTemperature())
+print(BME280.readPressure())
+print(BME280.readHumidity())
 
 print(si1145.readUV())
 print(si1145.readVisible())
