@@ -5,7 +5,7 @@ import BME280
 from SI1145 import SI1145
 si1145 = SI1145()
 
-updater = Updater(token='859692484:AAHJiQ3FnI-G6NHHoz2KUPIIzUyJxVRk1qg', use_context=True)
+updater = Updater(token='YOUR_TOKEN_HERE', use_context=True)
 dispatcher = updater.dispatcher
 
 # bot listeners
